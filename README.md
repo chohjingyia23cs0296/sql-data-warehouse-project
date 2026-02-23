@@ -1,18 +1,13 @@
-# sql-data-warehouse-project
-Building a modern data warehouse with SQL server, including ETL processes, data modelling and analytics
+## Building the Data Warehouse (Data Engineering)
 
-This project demonstrates a comprehensive data warehouse and anlaytics solution, from building a data warehouse to generating actionable insights.Design as a portfolio project highlights industry best practices in data engineering and analytics 
+# Project Overview
 
-# Data Warehouse and Analytics Project
+This project involves:
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
-
----
-
-## 🚀 Project Requirements
-
-### Building the Data Warehouse (Data Engineering)
+1.  **Data Architecture:** Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
+2.  **ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse.
+3.  **Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
+4.  **Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
 
 **Objective**
 
@@ -29,35 +24,15 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 
 ---
 
-# Project Overview
-
-This project involves:
-
-1.  **Data Architecture:** Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-2.  **ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse.
-3.  **Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
-4.  **Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
-
-This repository is an excellent resource for professionals and students looking to showcase expertise in:
-
-* SQL Development
-* Data Architect
-* Data Engineering
-* ETL Pipeline Developer
-* Data Modeling
-* Data Analytics
-
----
-
 # Important Links & Tools:
 
 Everything is for Free!
 
-* [Datasets](https://placeholder.link): Access to the project dataset (csv files).
+* [Datasets](https://github.com/chohjingyia23cs0296/sql-data-warehouse-project/tree/main/scripts): Access to the project dataset (csv files).
 * [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Lightweight server for hosting your SQL database.
 * [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/install/install?view=sql-server-ver16): GUI for managing and interacting with databases.
-* [Git Repository](https://placeholder.link](https://github.com/): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-* [DrawIO](https://placeholder.link](https://www.drawio.com): Design data architecture, models, flows, and diagrams.
+* [Git Repository](https://github.com/): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+* [DrawIO](https://www.drawio.com): Design data architecture, models, flows, and diagrams.
 * [Notion](https://www.notion.com/templates/sql-data-warehouse-project): Get the Project Template from Notion.
 * [Notion Project Steps](https://www.notion.so/Data-Warehouse-Project-30508d879ca0806fa6c2d0077e849cbc?source=copy_link): Access to All Project Phases and Tasks.
 
@@ -96,3 +71,32 @@ For more details, refer to [docs/requirements.md](https://placeholder.link/docs/
 ---
 
 # Repository Structure
+### 📁 Repository Structure
+
+```text
+data-warehouse-project/
+│
+├── datasets/                             # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                                 # Project documentation and architecture details
+│   ├── data_architecture.drawio          # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                   # Catalog of datasets, including field descriptions and metadat
+│   ├── data_flow.drawio                  # Draw.io file for the data flow diagram
+│   ├── data_models.drawio                # Draw.io file for data models (star schema)
+│
+├── scripts/                              # SQL scripts for ETL and transformations
+│   ├── bronze/                           # Scripts for extracting and loading raw data
+│   ├── silver/                           # Scripts for cleaning and transforming data
+│   └── gold/                             # Scripts for creating analytical models
+│
+├── tests/                                # Test scripts and quality files
+│
+├── README.md                             # Project overview and instructions
+├── LICENSE                               # License information for the repository
+├── .gitignore                            # Files and directories to be ignored by Git
+└── requirements.txt                      # Dependencies and requirements for the project
+```
+
+
+# 🛡️ License
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
